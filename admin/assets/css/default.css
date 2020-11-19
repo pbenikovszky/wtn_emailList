@@ -1,0 +1,87 @@
+.page-header {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.email-table {
+    margin: 0 auto;
+    width: 100%;
+}
+
+th,
+td {
+    border-bottom: 1px solid #bbb;
+}
+
+th {
+    margin-bottom: 20px;
+}
+
+td {
+    text-align: center;
+}
+
+.email-column {
+    text-align: left;
+}
+
+.tss-button {
+    padding: 5px 20px;
+    text-align: center;
+    width: 180px;
+    color: #fff;
+    background-color: #8cc63f;
+    font-size: 14px;
+    display: inline-block;
+    user-select: none;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    margin-right: 20px;
+}
+
+.tss-button:hover {
+    background-color: #609928 !important;
+}
+
+.tss-tablebutton {
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+}
+
+.tss-tablebutton::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #8cc63f;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.tss-tablebutton:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+/* dropdown forms */
+.dropdown-form {
+    -webkit-transition: height .25s ease;
+    -o-transition: height .25s ease;
+    transition: height .25s ease;
+    overflow: hidden;
+}
+
+.dropdown-form:not(.active) {
+    display: none;
+}

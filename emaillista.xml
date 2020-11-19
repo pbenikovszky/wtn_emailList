@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.0" method="upgrade">
+
+    <name>Email lista</name>
+    <creationDate>March 2019</creationDate>
+    <author>Peter Benikovszky</author>
+    <authorEmail>pbenikovszky@gmail.com</authorEmail>
+    <authorUrl>http://www.terrastormsolutions.com</authorUrl>
+    <copyright>Copyright Info</copyright>
+    <license>License Info</license>
+    <version>0.0.1</version>
+    <description>Description</description>
+
+    <administration>
+
+        <!-- Menu link -->
+        <menu link='index.php?option=com_emaillista'>Ajanló email lista</menu>
+
+        <!-- Files  -->
+        <files folder="admin">
+            <filename>index.html</filename>
+            <filename>emaillista.php</filename>
+            <filename>controller.php</filename>
+            <folder>assets</folder>
+            <folder>models</folder>
+            <folder>views</folder>
+        </files>
+
+    </administration>
+
+</extension>
